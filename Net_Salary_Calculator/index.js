@@ -13,7 +13,7 @@ function calculateTax(income){
 
           //Tax rate of 30% for income of upto 500,000
           {limit:500000, rate: 0.3},
-
+          
            //Tax rate of 35% for income of more than 800,000
             {limit: 800000, rate: 0.35},
 
